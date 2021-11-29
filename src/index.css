@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(58,134,180);
+  background: linear-gradient(90deg, rgba(58,134,180,1) 17%, rgba(12,74,240,1) 64%, rgba(5,16,201,1) 100%);
+  
+}
+
+button {
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+p, li {
+  font-size: 1rem;
+}
+
+/* h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+} */
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(12,74,240);
+  background: linear-gradient(90deg, rgba(12,74,240,1) 0%, rgba(5,16,201,1) 33%, rgba(58,134,180,1) 62%);
+  color: white;
+  text-align: center;
+}

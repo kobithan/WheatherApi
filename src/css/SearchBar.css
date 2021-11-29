@@ -1,0 +1,25 @@
+.SearchBar {
+  text-align: center;
+  margin: 3rem 0 4rem;
+  margin-left: -2rem;
+ 
+  
+ 
+}
+
+.SearchBar-input {
+  width: 20rem;
+}
+
+.SearchBar .message {
+  width: 20rem;
+  margin: 0 auto 2rem;
+  animation: fadeInDown 1s;
+}
+
+@media  screen and (max-width: 600px) {
+  .SearchBar {
+    width: 5rem;
+    margin-left: 10rem;
+    }
+  }

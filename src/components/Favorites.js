@@ -23,11 +23,7 @@ class Favorites extends Component {
       
     });
 
-    let cityElements1 = this.props.savedCities.map((city) => {
-      return <Button className="Favorites-btn" size="tiny" value={city} key={`${city}-button`} onClick={this.getWeather} content={city} />;
-    
-      
-    });
+  
 
     
     return (

@@ -5,7 +5,6 @@ import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import Favorites from "./components/Favorites";
 import Footer from "./components/Footer";
-//import API_KEY from "./config.js";
 
 
 class App extends Component {
